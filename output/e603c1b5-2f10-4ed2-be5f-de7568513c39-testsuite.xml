@@ -1,0 +1,100 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1625495965493' stop='1625495975195'>
+    <name>Validate login functionality and dashboad</name>
+    <title>Validate login functionality and dashboad</title>
+    <test-cases>
+        <test-case start='1625495966059' status='passed' stop='1625495975074'>
+            <name>Check Login Functionality @Regrestion</name>
+            <title>Check Login Functionality @Regrestion</title>
+            <labels>
+                <label name='tag' value='@Regrestion'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1625495966069' status='passed' stop='1625495970306'>
+                    <name>Given I go to home page </name>
+                    <title>Given I go to home page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1625495966069' status='passed' stop='1625495970306'>
+                            <name>I am on page "/index.html"</name>
+                            <title>I am on page "/index.html"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1625495970306' status='passed' stop='1625495972440'>
+                    <name>When I navigate on login page </name>
+                    <title>When I navigate on login page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1625495970306' status='passed' stop='1625495970431'>
+                            <name>I click "#signin_button"</name>
+                            <title>I click "#signin_button"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1625495970431' status='passed' stop='1625495972440'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1625495972440' status='passed' stop='1625495975070'>
+                    <name>And I login with username and password </name>
+                    <title>And I login with username and password </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1625495972440' status='passed' stop='1625495972688'>
+                            <name>I fill field "#user_login", "username"</name>
+                            <title>I fill field "#user_login", "username"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1625495972688' status='passed' stop='1625495972938'>
+                            <name>I fill field "#user_password", "password"</name>
+                            <title>I fill field "#user_password", "password"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1625495972938' status='passed' stop='1625495973063'>
+                            <name>I click "Sign in"</name>
+                            <title>I click "Sign in"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1625495973064' status='passed' stop='1625495975070'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1625495975070' status='passed' stop='1625495975070'>
+                            <name>I accept popup </name>
+                            <title>I accept popup </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1625495975070' status='passed' stop='1625495975074'>
+                    <name>Then I am on home page </name>
+                    <title>Then I am on home page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1625495975071' status='passed' stop='1625495975074'>
+                            <name>I see element "h2:nth-child(1)"</name>
+                            <title>I see element "h2:nth-child(1)"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

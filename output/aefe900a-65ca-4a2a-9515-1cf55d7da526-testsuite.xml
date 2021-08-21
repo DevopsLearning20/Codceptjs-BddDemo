@@ -1,0 +1,85 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1629580005415' stop='1629580008461'>
+    <name>Home Page Validations:</name>
+    <title>Home Page Validations:</title>
+    <test-cases>
+        <test-case start='1629580005416' status='passed' stop='1629580006823'>
+            <name>Validate Title of Home page</name>
+            <title>Validate Title of Home page</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1629580005418' status='passed' stop='1629580006819'>
+                    <name>I am on page "http://zero.webappsecurity.com/"</name>
+                    <title>I am on page "http://zero.webappsecurity.com/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1629580006819' status='passed' stop='1629580006823'>
+                    <name>I see in title "Zero - Personal Banking - Loans - Credit Cards"</name>
+                    <title>I see in title "Zero - Personal Banking - Loans - Credit Cards"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1629580006948' status='passed' stop='1629580006953'>
+            <name>Validate the search functionality</name>
+            <title>Validate the search functionality</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1629580006949' status='passed' stop='1629580006953'>
+                    <name>I see element "#searchTerm"</name>
+                    <title>I see element "#searchTerm"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1629580007073' status='passed' stop='1629580007408'>
+            <name>Validate online banking link</name>
+            <title>Validate online banking link</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1629580007075' status='passed' stop='1629580007212'>
+                    <name>I click {"xpath":"//li[@id='onlineBankingMenu']//div"}</name>
+                    <title>I click {"xpath":"//li[@id='onlineBankingMenu']//div"}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1629580007213' status='passed' stop='1629580007408'>
+                    <name>I see in current url "/online-banking"</name>
+                    <title>I see in current url "/online-banking"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1629580007528' status='passed' stop='1629580008347'>
+            <name>Validate FeedBackLink</name>
+            <title>Validate FeedBackLink</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1629580007529' status='passed' stop='1629580008120'>
+                    <name>I click {"css":"li[id='feedback'] div strong"}</name>
+                    <title>I click {"css":"li[id='feedback'] div strong"}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1629580008120' status='passed' stop='1629580008347'>
+                    <name>I see in current url "/feedback"</name>
+                    <title>I see in current url "/feedback"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

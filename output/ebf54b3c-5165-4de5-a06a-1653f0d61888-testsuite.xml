@@ -1,0 +1,134 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1629580361471' stop='1629580375479'>
+    <name>Validate login functionality and dashboad</name>
+    <title>Validate login functionality and dashboad</title>
+    <test-cases>
+        <test-case start='1629580361999' status='failed' stop='1629580375105'>
+            <name>Check Login Functionality</name>
+            <title>Check Login Functionality</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1629580362034' status='passed' stop='1629580363993'>
+                    <name>Given I go to home page </name>
+                    <title>Given I go to home page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1629580362034' status='passed' stop='1629580363992'>
+                            <name>I am on page "/index.html"</name>
+                            <title>I am on page "/index.html"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1629580363993' status='passed' stop='1629580366130'>
+                    <name>When I navigate on login page </name>
+                    <title>When I navigate on login page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1629580363993' status='passed' stop='1629580364117'>
+                            <name>I click "#signin_button"</name>
+                            <title>I click "#signin_button"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1629580364117' status='passed' stop='1629580366130'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1629580366130' status='passed' stop='1629580368899'>
+                    <name>And I login with username and password </name>
+                    <title>And I login with username and password </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1629580366130' status='passed' stop='1629580366413'>
+                            <name>I fill field "#user_login", "username"</name>
+                            <title>I fill field "#user_login", "username"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1629580366413' status='passed' stop='1629580366743'>
+                            <name>I fill field "#user_password", "password"</name>
+                            <title>I fill field "#user_password", "password"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1629580366743' status='passed' stop='1629580366884'>
+                            <name>I click "Sign in"</name>
+                            <title>I click "Sign in"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1629580366884' status='passed' stop='1629580368897'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1629580368897' status='passed' stop='1629580368899'>
+                            <name>I accept popup </name>
+                            <title>I accept popup </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1629580368899' status='passed' stop='1629580368908'>
+                    <name>Then I am on home page </name>
+                    <title>Then I am on home page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1629580368899' status='passed' stop='1629580368908'>
+                            <name>I see element "h2:nth-child(1)"</name>
+                            <title>I see element "h2:nth-child(1)"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1629580368908' status='failed' stop='1629580375105'>
+                    <name>Given I am login </name>
+                    <title>Given I am login </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1629580368908' status='failed' stop='1629580375105'>
+                            <name>I: loginUser </name>
+                            <title>I: loginUser </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1629580368908' status='passed' stop='1629580370357'>
+                                    <name>I am on page "/login.html"</name>
+                                    <title>I am on page "/login.html"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1629580370358' status='failed' stop='1629580375092'>
+                                    <name>I fill field "#user_login", "username"</name>
+                                    <title>I fill field "#user_login", "username"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='801bd618-ebcf-4dcf-8a1f-2103414f8371-attachment.png' type='image/png' size='625329'/>
+            </attachments>
+            <failure>
+                <message>Field "#user_login" was not found by text|CSS|XPath</message>
+                <stack-trace>Error: Field "#user_login" was not found by text|CSS|XPath
+                    at new ElementNotFound (C:\TestAutomation\BddDemo\node_modules\codeceptjs\lib\helper\errors\ElementNotFound.js:14:11)
+                    at assertElementExists (C:\TestAutomation\BddDemo\node_modules\codeceptjs\lib\helper\Puppeteer.js:2520:11)
+                    at Puppeteer.fillField (C:\TestAutomation\BddDemo\node_modules\codeceptjs\lib\helper\Puppeteer.js:1243:5)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

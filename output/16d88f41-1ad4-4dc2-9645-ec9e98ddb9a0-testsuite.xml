@@ -1,0 +1,535 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1629579967711' stop='1629580005372'>
+    <name>Validate login functionality and dashboad</name>
+    <title>Validate login functionality and dashboad</title>
+    <test-cases>
+        <test-case start='1629579968260' status='passed' stop='1629579975247'>
+            <name>Check Login Functionality</name>
+            <title>Check Login Functionality</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1629579968292' status='passed' stop='1629579970418'>
+                    <name>Given I go to home page </name>
+                    <title>Given I go to home page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1629579968292' status='passed' stop='1629579970418'>
+                            <name>I am on page "/index.html"</name>
+                            <title>I am on page "/index.html"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1629579970418' status='passed' stop='1629579972571'>
+                    <name>When I navigate on login page </name>
+                    <title>When I navigate on login page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1629579970418' status='passed' stop='1629579970560'>
+                            <name>I click "#signin_button"</name>
+                            <title>I click "#signin_button"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1629579970560' status='passed' stop='1629579972570'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1629579972571' status='passed' stop='1629579975241'>
+                    <name>And I login with username and password </name>
+                    <title>And I login with username and password </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1629579972571' status='passed' stop='1629579972822'>
+                            <name>I fill field "#user_login", "username"</name>
+                            <title>I fill field "#user_login", "username"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1629579972822' status='passed' stop='1629579973070'>
+                            <name>I fill field "#user_password", "password"</name>
+                            <title>I fill field "#user_password", "password"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1629579973070' status='passed' stop='1629579973226'>
+                            <name>I click "Sign in"</name>
+                            <title>I click "Sign in"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1629579973226' status='passed' stop='1629579975240'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1629579975240' status='passed' stop='1629579975241'>
+                            <name>I accept popup </name>
+                            <title>I accept popup </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1629579975241' status='passed' stop='1629579975247'>
+                    <name>Then I am on home page </name>
+                    <title>Then I am on home page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1629579975241' status='passed' stop='1629579975247'>
+                            <name>I see element "h2:nth-child(1)"</name>
+                            <title>I see element "h2:nth-child(1)"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1629579975381' status='passed' stop='1629579981567'>
+            <name>Validate Account Summary Functionality</name>
+            <title>Validate Account Summary Functionality</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1629579975391' status='passed' stop='1629579979400'>
+                    <name>Given I am login </name>
+                    <title>Given I am login </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1629579975392' status='passed' stop='1629579979400'>
+                            <name>I: loginUser </name>
+                            <title>I: loginUser </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1629579975392' status='passed' stop='1629579976589'>
+                                    <name>I am on page "/login.html"</name>
+                                    <title>I am on page "/login.html"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1629579976590' status='passed' stop='1629579976963'>
+                                    <name>I fill field "#user_login", "username"</name>
+                                    <title>I fill field "#user_login", "username"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1629579976963' status='passed' stop='1629579977215'>
+                                    <name>I fill field "#user_password", "password"</name>
+                                    <title>I fill field "#user_password", "password"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1629579977215' status='passed' stop='1629579977384'>
+                                    <name>I click "Sign in"</name>
+                                    <title>I click "Sign in"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1629579977385' status='passed' stop='1629579979400'>
+                                    <name>I wait 2</name>
+                                    <title>I wait 2</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1629579979400' status='passed' stop='1629579981561'>
+                    <name>When I navigate on Account Summary tab </name>
+                    <title>When I navigate on Account Summary tab </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1629579979400' status='passed' stop='1629579979554'>
+                            <name>I click "Account Summary"</name>
+                            <title>I click "Account Summary"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1629579979554' status='passed' stop='1629579981561'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1629579981561' status='passed' stop='1629579981567'>
+                    <name>Then Page Title should be "Zero - Account Summary" </name>
+                    <title>Then Page Title should be "Zero - Account Summary" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1629579981561' status='passed' stop='1629579981567'>
+                            <name>I see in title "Zero - Account Summary"</name>
+                            <title>I see in title "Zero - Account Summary"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1629579981688' status='passed' stop='1629579985804'>
+            <name>Validate Account Activity Functionality</name>
+            <title>Validate Account Activity Functionality</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1629579981699' status='passed' stop='1629579985332'>
+                    <name>Given I am login </name>
+                    <title>Given I am login </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1629579981700' status='passed' stop='1629579985332'>
+                            <name>I: loginUser </name>
+                            <title>I: loginUser </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1629579981700' status='passed' stop='1629579982528'>
+                                    <name>I am on page "/login.html"</name>
+                                    <title>I am on page "/login.html"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1629579982528' status='passed' stop='1629579982903'>
+                                    <name>I fill field "#user_login", "username"</name>
+                                    <title>I fill field "#user_login", "username"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1629579982903' status='passed' stop='1629579983167'>
+                                    <name>I fill field "#user_password", "password"</name>
+                                    <title>I fill field "#user_password", "password"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1629579983167' status='passed' stop='1629579983323'>
+                                    <name>I click "Sign in"</name>
+                                    <title>I click "Sign in"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1629579983324' status='passed' stop='1629579985332'>
+                                    <name>I wait 2</name>
+                                    <title>I wait 2</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1629579985332' status='passed' stop='1629579985473'>
+                    <name>When I navigate on Account Activity tab </name>
+                    <title>When I navigate on Account Activity tab </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1629579985332' status='passed' stop='1629579985473'>
+                            <name>I click "#account_activity_tab"</name>
+                            <title>I click "#account_activity_tab"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1629579985473' status='passed' stop='1629579985804'>
+                    <name>Then Page Title should be "Zero - Account Activity" </name>
+                    <title>Then Page Title should be "Zero - Account Activity" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1629579985473' status='passed' stop='1629579985804'>
+                            <name>I see in title "Zero - Account Activity"</name>
+                            <title>I see in title "Zero - Account Activity"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1629579985939' status='passed' stop='1629579990117'>
+            <name>Validate Transfer Funds Functionality</name>
+            <title>Validate Transfer Funds Functionality</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1629579985947' status='passed' stop='1629579989520'>
+                    <name>Given I am login </name>
+                    <title>Given I am login </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1629579985947' status='passed' stop='1629579989520'>
+                            <name>I: loginUser </name>
+                            <title>I: loginUser </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1629579985947' status='passed' stop='1629579986799'>
+                                    <name>I am on page "/login.html"</name>
+                                    <title>I am on page "/login.html"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1629579986799' status='passed' stop='1629579987062'>
+                                    <name>I fill field "#user_login", "username"</name>
+                                    <title>I fill field "#user_login", "username"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1629579987062' status='passed' stop='1629579987342'>
+                                    <name>I fill field "#user_password", "password"</name>
+                                    <title>I fill field "#user_password", "password"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1629579987342' status='passed' stop='1629579987513'>
+                                    <name>I click "Sign in"</name>
+                                    <title>I click "Sign in"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1629579987514' status='passed' stop='1629579989520'>
+                                    <name>I wait 2</name>
+                                    <title>I wait 2</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1629579989520' status='passed' stop='1629579989661'>
+                    <name>When I navigate on Transfer Funds tab </name>
+                    <title>When I navigate on Transfer Funds tab </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1629579989520' status='passed' stop='1629579989661'>
+                            <name>I click "#transfer_funds_tab"</name>
+                            <title>I click "#transfer_funds_tab"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1629579989661' status='passed' stop='1629579990117'>
+                    <name>Then Page Title should be "Zero - Transfer Funds" </name>
+                    <title>Then Page Title should be "Zero - Transfer Funds" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1629579989662' status='passed' stop='1629579990117'>
+                            <name>I see in title "Zero - Transfer Funds"</name>
+                            <title>I see in title "Zero - Transfer Funds"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1629579990240' status='failed' stop='1629580000348'>
+            <name>Validate Pay Bills Functionality</name>
+            <title>Validate Pay Bills Functionality</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1629579990245' status='passed' stop='1629579993857'>
+                    <name>Given I am login </name>
+                    <title>Given I am login </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1629579990245' status='passed' stop='1629579993857'>
+                            <name>I: loginUser </name>
+                            <title>I: loginUser </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1629579990245' status='passed' stop='1629579991129'>
+                                    <name>I am on page "/login.html"</name>
+                                    <title>I am on page "/login.html"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1629579991129' status='passed' stop='1629579991425'>
+                                    <name>I fill field "#user_login", "username"</name>
+                                    <title>I fill field "#user_login", "username"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1629579991425' status='passed' stop='1629579991690'>
+                                    <name>I fill field "#user_password", "password"</name>
+                                    <title>I fill field "#user_password", "password"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1629579991690' status='passed' stop='1629579991845'>
+                                    <name>I click "Sign in"</name>
+                                    <title>I click "Sign in"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1629579991845' status='passed' stop='1629579993857'>
+                                    <name>I wait 2</name>
+                                    <title>I wait 2</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1629579993857' status='passed' stop='1629579993998'>
+                    <name>When I navigate on Pay Bills tab </name>
+                    <title>When I navigate on Pay Bills tab </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1629579993857' status='passed' stop='1629579993998'>
+                            <name>I click "#pay_bills_tab"</name>
+                            <title>I click "#pay_bills_tab"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1629579993998' status='passed' stop='1629579994406'>
+                    <name>Then Page Title should be "Zero - Pay Bills" </name>
+                    <title>Then Page Title should be "Zero - Pay Bills" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1629579993998' status='passed' stop='1629579994406'>
+                            <name>I see in title "Zero - Pay Bills"</name>
+                            <title>I see in title "Zero - Pay Bills"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1629579994406' status='failed' stop='1629580000348'>
+                    <name>Given I am login </name>
+                    <title>Given I am login </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1629579994406' status='failed' stop='1629580000348'>
+                            <name>I: loginUser </name>
+                            <title>I: loginUser </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1629579994406' status='passed' stop='1629579995605'>
+                                    <name>I am on page "/login.html"</name>
+                                    <title>I am on page "/login.html"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1629579995606' status='failed' stop='1629580000343'>
+                                    <name>I fill field "#user_login", "username"</name>
+                                    <title>I fill field "#user_login", "username"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='5807a239-b54b-4c59-b38c-580e00020167-attachment.png' type='image/png' size='625329'/>
+            </attachments>
+            <failure>
+                <message>Field "#user_login" was not found by text|CSS|XPath</message>
+                <stack-trace>Error: Field "#user_login" was not found by text|CSS|XPath
+                    at new ElementNotFound (C:\TestAutomation\BddDemo\node_modules\codeceptjs\lib\helper\errors\ElementNotFound.js:14:11)
+                    at assertElementExists (C:\TestAutomation\BddDemo\node_modules\codeceptjs\lib\helper\Puppeteer.js:2520:11)
+                    at Puppeteer.fillField (C:\TestAutomation\BddDemo\node_modules\codeceptjs\lib\helper\Puppeteer.js:1243:5)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1629580000733' status='passed' stop='1629580005250'>
+            <name>Validate Online Statements Functionality</name>
+            <title>Validate Online Statements Functionality</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1629580000737' status='passed' stop='1629580004690'>
+                    <name>Given I am login </name>
+                    <title>Given I am login </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1629580000738' status='passed' stop='1629580004690'>
+                            <name>I: loginUser </name>
+                            <title>I: loginUser </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1629580000738' status='passed' stop='1629580002008'>
+                                    <name>I am on page "/login.html"</name>
+                                    <title>I am on page "/login.html"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1629580002008' status='passed' stop='1629580002277'>
+                                    <name>I fill field "#user_login", "username"</name>
+                                    <title>I fill field "#user_login", "username"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1629580002277' status='passed' stop='1629580002561'>
+                                    <name>I fill field "#user_password", "password"</name>
+                                    <title>I fill field "#user_password", "password"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1629580002561' status='passed' stop='1629580002687'>
+                                    <name>I click "Sign in"</name>
+                                    <title>I click "Sign in"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1629580002687' status='passed' stop='1629580004690'>
+                                    <name>I wait 2</name>
+                                    <title>I wait 2</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1629580004690' status='passed' stop='1629580004817'>
+                    <name>When I navigate on Online Statements tab </name>
+                    <title>When I navigate on Online Statements tab </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1629580004690' status='passed' stop='1629580004817'>
+                            <name>I click "#online_statements_tab"</name>
+                            <title>I click "#online_statements_tab"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1629580004817' status='passed' stop='1629580005250'>
+                    <name>Then Page Title should be "Zero - Online Statements" </name>
+                    <title>Then Page Title should be "Zero - Online Statements" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1629580004817' status='passed' stop='1629580005250'>
+                            <name>I see in title "Zero - Online Statements"</name>
+                            <title>I see in title "Zero - Online Statements"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

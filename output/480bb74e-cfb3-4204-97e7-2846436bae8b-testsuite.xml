@@ -1,0 +1,99 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1625495297457' stop='1625495301487'>
+    <name>Home Page Validations:</name>
+    <title>Home Page Validations:</title>
+    <test-cases>
+        <test-case start='1625495297458' status='passed' stop='1625495299373'>
+            <name>Validate Title of Home page</name>
+            <title>Validate Title of Home page</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1625495297460' status='passed' stop='1625495299050'>
+                    <name>I am on page "http://zero.webappsecurity.com/"</name>
+                    <title>I am on page "http://zero.webappsecurity.com/"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I am on page "http://zero.webappsecurity.com/"' source='08837159-7453-4433-8d35-bcf504cb435c-attachment.png' type='image/png' size='631285'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1625495299050' status='passed' stop='1625495299371'>
+                    <name>I see in title "Zero - Personal Banking - Loans - Credit Cards"</name>
+                    <title>I see in title "Zero - Personal Banking - Loans - Credit Cards"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I see in title "Zero - Personal Banking - Loans - Credit Cards"' source='87015fc9-e497-4c44-b509-372dc656a9ab-attachment.png' type='image/png' size='631314'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1625495299495' status='passed' stop='1625495299936'>
+            <name>Validate the search functionality</name>
+            <title>Validate the search functionality</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1625495299495' status='passed' stop='1625495299934'>
+                    <name>I see element "#searchTerm"</name>
+                    <title>I see element "#searchTerm"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I see element "#searchTerm"' source='bda96f32-3ca0-4530-bf6c-59afe1f0d3f9-attachment.png' type='image/png' size='631314'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1625495300054' status='passed' stop='1625495300726'>
+            <name>Validate online banking link</name>
+            <title>Validate online banking link</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1625495300055' status='passed' stop='1625495300509'>
+                    <name>I click {"xpath":"//li[@id='onlineBankingMenu']//div"}</name>
+                    <title>I click {"xpath":"//li[@id='onlineBankingMenu']//div"}</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I click {"xpath":"//li[@id=&apos;onlineBankingMenu&apos;]//div"}' source='fca89624-8106-4fc9-b683-9ba6a33bf5c5-attachment.png' type='image/png' size='74315'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1625495300509' status='passed' stop='1625495300725'>
+                    <name>I see in current url "/online-banking"</name>
+                    <title>I see in current url "/online-banking"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I see in current url "/online-banking"' source='065edc88-765b-4b8d-8df6-323ce4b02e2e-attachment.png' type='image/png' size='265069'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1625495300834' status='passed' stop='1625495301378'>
+            <name>Validate FeedBackLink</name>
+            <title>Validate FeedBackLink</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1625495300835' status='passed' stop='1625495301270'>
+                    <name>I click {"css":"li[id='feedback'] div strong"}</name>
+                    <title>I click {"css":"li[id='feedback'] div strong"}</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I click {"css":"li[id=&apos;feedback&apos;] div strong"}' source='fb1266a7-ec0a-4765-bdc0-63464dcddd97-attachment.png' type='image/png' size='54567'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1625495301270' status='passed' stop='1625495301376'>
+                    <name>I see in current url "/feedback"</name>
+                    <title>I see in current url "/feedback"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I see in current url "/feedback"' source='0cce2183-e480-473d-911f-8ba9ad86a2f2-attachment.png' type='image/png' size='54655'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
